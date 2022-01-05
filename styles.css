@@ -1,6 +1,31 @@
+html{box-sizing: border-box;}
+  
 body{background-color: yellow;
 color:black;
 font-size: larger;
-text-align: center;}
-img{height: auto;
+text-align: left;}
+img{
+    display: block; height: auto
+    ;
+    align-items: center;
 width: 500px;}
+
+.nuoroda{display: block; background-color: crimson; color: black; border: cornflowerblue 5px bold; margin: 20
+ px;  }
+
+h1{background-color: crimson;
+margin-left:  0px;
+width: fit-content;
+border: cornflowerblue solid 5px ;}
+.links-list a {
+    background-color: rgb(179,57,81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+  display: inline-block;
+  }
+  
+  .links-list a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+  }
